@@ -1,10 +1,9 @@
-This is the final, high-impact README.md file for your GitHub repository. It is specifically written to match the project requirements from Sailesh and to highlight the "Accountability" and "Technical Depth" that Motion Recruitment is looking for.
-
 AI-Augmented Business Analysis (SQL + Python + Excel)
-📌 Project Overview
-This project simulates a professional end-to-end analytics workflow. Acting as a Business Data Analyst, I managed the extraction of raw data via SQL, performed exploratory analysis in Python, and developed executive summaries in Excel.
 
-A core focus of this project is AI-Augmented Analysis Validation. By comparing manual findings with AI-generated insights (ChatGPT), I established a rigorous validation framework to ensure data integrity and identify potential AI hallucinations, ensuring that business decisions are backed by verified evidence.
+**Author:** Sonia Mannepuli  
+**Date:** April 2026 
+
+---
 
 🎯 Objectives
 Data Engineering: Extracting multi-dimensional datasets using advanced SQL.
