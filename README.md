@@ -1,11 +1,11 @@
-AI-Augmented Business Analysis (SQL + Python + Excel)
+# AI-Augmented Business Analysis (SQL + Python + Excel)
 
 **Author:** Sonia Mannepuli  
 **Date:** April 2026 
 
 ---
 
-🎯 Objectives
+## Objectives
 Data Engineering: Extracting multi-dimensional datasets using advanced SQL.
 
 Exploratory Data Analysis (EDA): Using Python to drive trend analysis and customer segmentation.
@@ -14,7 +14,7 @@ Business Intelligence: Translating technical metrics into stakeholder-ready Exce
 
 AI Evaluation: Critically auditing AI-generated recommendations for accuracy and practical utility.
 
-🛠️ Tech Stack
+## Tech Stack
 SQL: Data extraction (JOINs, aggregations, date-filtering).
 
 Python: Data processing and visualization (Pandas, Matplotlib, Seaborn).
@@ -23,48 +23,45 @@ Excel: KPI dashboards, Pivot Tables, and visual storytelling.
 
 AI: ChatGPT (Prompt Engineering & Cross-Validation).
 
-📂 Repository Structure
+## Repository Structure
 Plaintext
 ├── sql_scripts/      # Task 1: SQL logic for Revenue, Customer, and Category pillars
 ├── data/             # Task 1: Cleaned CSV datasets extracted from the database
 ├── notebooks/        # Task 2: (Current Phase) Jupyter Notebook for Python EDA
 ├── reports/          # Task 3-5: (Upcoming) Excel Dashboard & AI Comparison Report
 └── README.md         # Project documentation and summary
-🚀 Workflow & Progress
-1. Data Extraction (SQL) ✅
-I developed and executed SQL scripts to extract high-quality datasets for analysis:
 
-Revenue Trends: Monthly summaries and order volume analysis.
+###  Workflow & Progress
+## 1. Data Extraction (SQL) ✅
+- I developed and executed SQL scripts to extract high-quality datasets for analysis:
 
-Customer Performance: Identifying top-tier spenders and geographic distribution.
+- Revenue Trends: Monthly summaries and order volume analysis.
 
-Category Analysis: Evaluating product performance based on revenue and quantity.
+- Customer Performance: Identifying top-tier spenders and geographic distribution.
 
-Status: SQL scripts and CSV outputs are fully committed in /sql_scripts and /data.
+- Category Analysis: Evaluating product performance based on revenue and quantity.
 
-2. Exploratory Data Analysis (Python) 🔄
-Current Phase: Processing extracted CSVs in Jupyter Notebooks to identify:
+- Status: SQL scripts and CSV outputs are fully committed in /sql_scripts and /data.
 
-Monthly revenue trends and growth drivers.
+## 2. Exploratory Data Analysis (Python) 🔄
+- Current Phase: Processing extracted CSVs in Jupyter Notebooks to identify:
 
-Demographic distributions and customer segments.
+- Monthly revenue trends and growth drivers.
 
-Data quality checks to ensure 100% integrity before visualization.
+- Demographic distributions and customer segments.
 
-3. Business Summary (Excel) ⏳
-Upcoming: Building an executive dashboard featuring:
+- Data quality checks to ensure 100% integrity before visualization.
 
-Key Performance Indicators (KPIs) like Revenue and Order Growth.
+## 3. Business Summary (Excel) ⏳
+- Upcoming: Building an executive dashboard featuring:
 
-Dynamic charts for business-friendly interpretation.
+- Key Performance Indicators (KPIs) like Revenue and Order Growth.
 
-4. AI-Assisted Analysis & Comparison ⏳
-Upcoming: Leveraging ChatGPT to generate insights and cross-referencing them with manual findings.
+- Dynamic charts for business-friendly interpretation.
 
-Comparison Metric: Evaluating "Key Similarities," "Accuracy of AI Outputs," and "Missed Insights."
+## 4. AI-Assisted Analysis & Comparison ⏳
+- Upcoming: Leveraging ChatGPT to generate insights and cross-referencing them with manual findings.
 
-Goal: Determining the "So What" factor—the actionable business value behind the data.
+- Comparison Metric: Evaluating "Key Similarities," "Accuracy of AI Outputs," and "Missed Insights."
 
-Author: Sonia Mannepuli
-
-Date: May 2026
+- Goal: Determining the "So What" factor—the actionable business value behind the data.
