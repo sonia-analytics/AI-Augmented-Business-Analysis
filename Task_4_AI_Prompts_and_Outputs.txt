@@ -1,0 +1,70 @@
+AI-Augmented Business Analysis: AI-Assisted Analysis Deliverable
+Author: Sonia Mannepuli
+
+Project Overview:
+This document provides refined prompts and comprehensive AI-generated insights based on 
+e-commerce datasets (Revenue Trends, Category Performance, and Customer Data). 
+Each insight includes a step-by-step breakdown and actionable business recommendations.
+
+--------------------------------------------------------------------------------
+1. Revenue Growth Analysis
+   Prompt: "Based on revenue_trends.csv, what is the month-over-month percentage growth in revenue? Provide a breakdown and suggest recommendations."
+   AI Insight:
+   - Jan to Feb: 50.00% growth (Revenue: $5,000 to $7,500). Suggests high seasonal demand or promotional success.
+   - Feb to March: 20.00% decline (Revenue: $7,500 to $6,000). Reflects post-peak correction.
+   - Recommendation: Investigate if the February spike was a one-time event and develop retention campaigns to stabilize post-peak revenue.
+
+2. AOV Performance
+   Prompt: "Analyze revenue_trends.csv: Is the Average Order Value (AOV) stable? What does this imply for customer behavior?"
+   AI Insight:
+   - The AOV remains consistent, indicating that while total revenue fluctuates, individual customer spending habits remain stable.
+   - Recommendation: Focus on increasing order frequency rather than trying to force higher spend-per-order, as the latter is currently inelastic.
+
+3. Revenue-to-Order Ratio by Category
+   Prompt: "Using category_performance.csv, which category has the highest revenue-to-order ratio? How should we prioritize inventory?"
+   AI Insight:
+   - Electronics exhibits the highest revenue-per-order, proving it is a high-value category despite lower volume.
+   - Recommendation: Prioritize marketing spend on Electronics to maximize high-value conversions.
+
+4. Sales Volume Drivers
+   Prompt: "In category_performance.csv, which category has the highest volume of items sold? What does this mean for customer acquisition?"
+   AI Insight:
+   - Clothing dominates total units sold.
+   - Recommendation: Use Clothing as an "entry-level" category to acquire new customers, then cross-sell higher-margin items like Electronics.
+
+5. Power User Identification
+   Prompt: "Based on customer_data.csv, calculate the average spend per customer. How many customers are above this average? Define a strategy for this segment."
+   AI Insight:
+   - Power users (those spending above the dataset mean) are critical to growth.
+   - Recommendation: Implement an exclusive loyalty tier for these users to prevent churn and increase lifetime value.
+
+6. Frequency and Spend Correlation
+   Prompt: "Analyze customer_data.csv: Is there a correlation between the number of orders and total_spent? What is the strategic implication?"
+   AI Insight:
+   - There is a strong positive correlation, showing that frequent buyers are also the highest spenders.
+   - Recommendation: Automate email marketing sequences to trigger after order #2 to nudge customers toward the "frequent buyer" segment.
+
+7. Future Revenue Forecasting
+   Prompt: "Using revenue_trends.csv, what is the best estimate for next month's revenue? Provide the logic behind your projection."
+   AI Insight:
+   - Based on the 3-month average ($6,166), future projections are stable.
+   - Recommendation: Set conservative monthly targets at $6,000 to ensure goal attainment while investigating new acquisition channels.
+
+8. Quick Win Growth Strategy
+   Prompt: "Looking at all files, what is the biggest 'quick win' for business growth?"
+   AI Insight:
+   - Upsell Electronics to Clothing repeat-purchasers.
+   - Recommendation: Create a bundled promotional offer (e.g., "Add an accessory from our Electronics line to your Clothing order for 10% off").
+
+9. Inventory Space Optimization
+   Prompt: "Based on category_performance.csv, which category is the best candidate for inventory reduction?"
+   AI Insight:
+   - Books has the lowest unique orders and revenue contribution.
+   - Recommendation: Phase out Books to free up warehouse space for higher-turnover Electronics or Clothing inventory.
+
+10. Customer Retention Strategy
+    Prompt: "Refine the strategy for customer retention: What specific message would you send to the 'low-spent' segment found in customer_data.csv?"
+    AI Insight:
+    - Low-spend users require an incentive to re-engage.
+    - Recommendation: Send a "We miss you" email campaign with a time-limited 15% discount code valid only for their next purchase to bridge the gap to higher spend tiers.
+--------------------------------------------------------------------------------
